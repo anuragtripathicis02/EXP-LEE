@@ -15,7 +15,7 @@ import IconCoin from "../../../../public/images/icon-coin.svg";
 const SearchDiscoverUsers = () => {
     return (
         <>
-            <div className='sec-discover-user position-relative z-1'>
+            <div className='sec-discover-user position-relative z-1 py-4'>
                 <div className='container'>
                     <h3 className='block-title'>Connect with an expert in your field</h3>
                     <div className='row gx-3'>
