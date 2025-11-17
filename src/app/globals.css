@@ -249,6 +249,17 @@ input:-webkit-autofill {
 }
 
 
+.form-floating .form-control:focus {
+  border-color: #181A25 !important;   /* change border color */
+  box-shadow: none !important;        /* remove blue outline */
+}
+
+/* Floating label color on focus */
+.form-control:focus ~ label {
+  color: #181A25 !important;
+}
+
+
 .auth-info {
     background-position: center left;
     background-repeat: no-repeat;
@@ -813,7 +824,7 @@ input:-webkit-autofill {
     background: var(--bs-white) !important;
     border: 1px solid #F0F2FA !important;
     border-radius: 30px;
-    color: var(--black);
+    color: var(--black) !important;
     font-size: 14px;
     font-weight: 500;
     display: flex;
@@ -1969,4 +1980,36 @@ button.change-btn {
 
 .preview-post-sec .preview-text .text-box {
     width: calc(100% - 68px);
+}
+
+
+.h-205 .bg-gredient-box {min-height: 205px;}
+.sec-discover-user {
+    padding: 20px 0px;
+    display: block;
+}
+.block-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #282C3E;
+    margin-bottom: 24px;
+}
+
+
+.d-flex.align-items-center.justify-content-center.or .px-0 {
+    flex: 1;
+    position: relative;
+    height: 1px;
+    background: #D4D6E2;
+    font-size: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+.search-head-box input {height: 38px;font-size: 14px;}
+.search-head-box button.btn-search svg {width: 20px;}
+.search-head-box button.btn-search {top: 0;}
+.filters-discover .btn-primary{ font-size: 12px;}
+.filters-flex {gap: 4px;}    
 }
