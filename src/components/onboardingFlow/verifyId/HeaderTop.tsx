@@ -16,7 +16,6 @@ const HeaderTop = () => {
                         </span>
                     </Link>
                 </div>
-
             </div>
         </div>
     )

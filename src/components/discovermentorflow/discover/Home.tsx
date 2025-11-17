@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
     <Sidebar/>
-    <div className='main-content bg-content'>
+    <div className='main-content bg-content profile-bg'>
       <ProfileCard/>
     </div>
     </>
