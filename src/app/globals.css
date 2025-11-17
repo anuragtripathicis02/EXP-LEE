@@ -1970,3 +1970,12 @@ button.change-btn {
 .preview-post-sec .preview-text .text-box {
     width: calc(100% - 68px);
 }
+
+/***************new css add for profile page******************/
+
+.dropdown-item.active, .dropdown-item:active {
+    background: transparent;
+    color: var(--bs-dropdown-link-color);
+}
+
+
