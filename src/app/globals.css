@@ -1982,6 +1982,14 @@ button.change-btn {
     width: calc(100% - 68px);
 }
 
+/***************new css add for profile page******************/
+
+.dropdown-item.active, .dropdown-item:active {
+    background: transparent;
+    color: var(--bs-dropdown-link-color);
+}
+
+
 
 .h-205 .bg-gredient-box {min-height: 205px;}
 .sec-discover-user {
